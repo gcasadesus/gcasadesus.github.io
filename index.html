@@ -46,6 +46,7 @@
 <section id="research">
 <h2>Research and Projects</h2>
 
+<div class="cards">
 <div class="card side" id="card-pnt">
 <img src="assets/old/card_pnt.jpg" alt="Lunar surface scene with astronauts, a rover and satellites exchanging signals with clocks" loading="lazy">
 <div class="body">
@@ -57,13 +58,13 @@
 </div>
 
 <div class="card" id="card-autonomy">
-<h3>Lunar Surface Navigation and Autonomy</h3>
-<p class="lab">Navigation and Autonomous Vehicles &ndash; Stanford</p>
-<p>Rovers and humanoids will work alongside astronauts on the Moon, and autonomy, hazard avoidance and navigation are critical capabilities for them, especially while lunar navigation constellations are not yet deployed. We develop the layers of an autonomy stack: feature matching for visual SLAM, real-time semantic 3D Gaussian splatting maps with depth estimation, SLAM anchored to orbital elevation maps, and hazard detection and path planning. We test them in photorealistic lunar simulation, whose renders we compare against Apollo, Chang'e-3 and Artemis images, and on lunar testbed, Earth analog and real lunar data. We also study humanoid locomotion under lunar gravity, terrain and soil. The navigation, mapping and planning stack developed in our lab won first place in NASA's Lunar Autonomy Challenge.</p>
 <figure>
 <img src="assets/apollo17_comparison.jpg" alt="Apollo 17 photograph next to Unreal Engine and Isaac Sim renders" loading="lazy">
 <figcaption>Apollo 17 photo (left) and Unreal Engine and Isaac Sim renders from the same camera pose.</figcaption>
 </figure>
+<h3>Lunar Surface Navigation and Autonomy</h3>
+<p class="lab">Navigation and Autonomous Vehicles &ndash; Stanford</p>
+<p>Rovers and humanoids will work alongside astronauts on the Moon, and autonomy, hazard avoidance and navigation are critical capabilities for them, especially while lunar navigation constellations are not yet deployed. We develop the layers of an autonomy stack: feature matching for visual SLAM, real-time semantic 3D Gaussian splatting maps with depth estimation, SLAM anchored to orbital elevation maps, and hazard detection and path planning. We test them in photorealistic lunar simulation, whose renders we compare against Apollo, Chang'e-3 and Artemis images, and on lunar testbed, Earth analog and real lunar data. We also study humanoid locomotion under lunar gravity, terrain and soil. The navigation, mapping and planning stack developed in our lab won first place in NASA's Lunar Autonomy Challenge.</p>
 <p class="br">[<a href="https://www.nasa.gov/directorates/stmd/top-prize-awarded-in-lunar-autonomy-challenge-to-virtually-map-moons-surface">NASA news</a>] [<a href="#pub-lac">Lunar Autonomy Challenge paper</a>] [<a href="https://arxiv.org/abs/2610.30080">Humanoid preprint</a>] [<a href="#publications">Publications</a>]</p>
 </div>
 
@@ -117,7 +118,7 @@
 <p class="br">[<a href="https://www.bsc.es/research-and-development/software-and-apps/software-list/dislib">dislib</a>] [<a href="https://www.bsc.es/research-and-development/software-and-apps/software-list/comp-superscalar">COMPSs</a>]</p>
 </div>
 </div>
-<div class="card" id="card-robots">
+<div class="card span" id="card-robots">
 <h3>Autonomous Robotics Competitions</h3>
 <p class="lab">Gadget Robotics Team</p>
 <p>I started the Gadget Robotics team in high school. We designed and built autonomous robots for line-following races, mini-sumo and humanoid fights, and competed in the Spanish National Robotics League.</p>
@@ -130,10 +131,12 @@
 </div>
 <p class="br">[<a href="https://www.facebook.com/gadgetroboticsCAT">Gadget Robotics</a>]</p>
 </div>
+</div>
 </section>
 
 <section id="experience">
 <h2>Experience</h2>
+<div class="grid2">
 <div class="entry"><img class="logo" src="assets/logos/skydio.png" alt="" loading="lazy"><div><p class="mt">Skydio</p><p class="role">Autonomy Intern, Computer Vision Team</p><p>Perception for autonomous obstacle avoidance on the X10 drone: semantic segmentation and monocular and stereo depth estimation for thin objects.</p><p class="tags">San Mateo, CA &middot; Summer 2026</p></div></div>
 <div class="entry"><img class="logo" src="assets/logos/stanford.png" alt="" loading="lazy"><div><p class="mt">Stanford University</p><p class="role">Research Assistant, Navigation and Autonomous Vehicles Lab</p><p>Autonomy stack for lunar rovers combining visual SLAM, 3D Gaussian splatting mapping and semantic perception, and LuPNT, an open-source C++ simulator for lunar orbital and surface navigation.</p><p class="tags">Stanford, CA &middot; 2023 &ndash; present</p></div></div>
 <div class="entry"><img class="logo" src="assets/logos/stanford.png" alt="" loading="lazy"><div><p class="mt">Stanford University</p><p class="role">Teaching Assistant and Lecturer, AA 272: Global Positioning Systems</p><p>Taught the graduate course for three years.</p><p class="tags">Stanford, CA &middot; 2024 &ndash; 2026</p></div></div>
@@ -142,6 +145,7 @@
 <div class="entry"><img class="logo" src="assets/logos/bsc.png" alt="" loading="lazy"><div><p class="mt">Barcelona Supercomputing Center</p><p class="role">Research Intern, Workflows and Distributed Computing Group</p><p>Machine learning algorithms for high-performance and distributed computing.</p><p class="tags">Barcelona, Spain &middot; Summer 2021</p></div></div>
 <div class="entry"><img class="logo" src="assets/logos/nanosat.png" alt="" loading="lazy"><div><p class="mt">Nano-Satellite and Payload Laboratory, UPC</p><p class="role">Research Intern, Distributed Satellite Systems</p><p>Satellite simulator and learning-based scheduling for large constellations.</p><p class="tags">Barcelona, Spain &middot; 2020 &ndash; 2021</p></div></div>
 <div class="entry"><img class="logo" src="assets/logos/cttc.png" alt="" loading="lazy"><div><p class="mt">Heat and Mass Transfer Technological Center, UPC</p><p class="role">Research Intern, Turbulent Flow in Aerodynamics</p><p>Direct numerical simulations of turbulent flow.</p><p class="tags">Barcelona, Spain &middot; 2020 &ndash; 2021</p></div></div>
+</div>
 <h3>Service</h3>
 <ul class="plain service">
 <li>Member, Vice Provost for Graduate Education (VPGE) Faculty Advisory Committee, Stanford <span class="tags">&middot; 2026</span></li>
@@ -179,13 +183,16 @@
 
 <section id="education">
 <h2>Education</h2>
+<div class="grid3">
 <div class="entry"><img class="logo" src="assets/logos/stanford.png" alt="" loading="lazy"><div><p class="mt">Stanford University</p><p class="role">MSc and PhD in Aeronautics and Astronautics</p><p>Navigation and Autonomous Vehicles (NAV) Lab. Advisor: Prof. Grace Gao. Coursework: Deep Learning for Computer Vision, Validation of Safety Critical Systems, Systems for ML, State Estimation and Filtering for Robotic Perception, Decision Making Under Uncertainty, ML with Graphs, Graph and Combinatorial Optimization, Convex Optimization.</p><p class="tags">Stanford, CA &middot; 2022 &ndash; 2027 (expected)</p></div></div>
 <div class="entry"><img class="logo" src="assets/logos/mit.png" alt="" loading="lazy"><div><p class="mt">Massachusetts Institute of Technology</p><p class="role">BSc Thesis in Aeronautics and Astronautics</p><p>Thesis: Dynamic Frequency Assignment for Mobile Users in Multibeam Satellite Constellations. Advisor: Prof. Edward F. Crawley.</p><p class="tags">Cambridge, MA &middot; 2021 &ndash; 2022</p></div></div>
 <div class="entry"><img class="logo" src="assets/logos/upc.png" alt="" loading="lazy"><div><p class="mt">Universitat Politècnica de Catalunya &ndash; CFIS</p><p class="role">BSc in Aerospace Engineering (rank 1/60) and BSc in Telecommunications Engineering (rank 1/163)</p><p>Coursework: Systems Engineering, Aerospace Propulsion, Control Theory, Flight Mechanics, Communication Systems, Information Theory, Signal Processing, Network Protocols.</p><p class="tags">Barcelona, Spain &middot; 2017 &ndash; 2022</p></div></div>
+</div>
 </section>
 
 <section id="media">
 <h2>Speaking and Media</h2>
+<div class="grid2 media">
 <div class="mi noimg"><div><p class="mt">Presenter at the [<a href="https://bayarearoboticssymposium.github.io/">Bay Area Robotics Symposium</a>]</p><p>Spotlight talk and poster on lunar surface navigation and autonomy</p><p class="tags">Berkeley, CA &middot; October 2026</p></div></div>
 <div class="mi noimg"><div><p class="mt">Presenter at the [<a href="https://caesar.stanford.edu/annual-meeting-2026">Stanford Center for AeroSpace Autonomy Research (CAESAR) Annual Meeting</a>]</p><p class="tags">Stanford, CA &middot; 2026</p></div></div>
 <div class="mi noimg"><div><p class="mt">Presenter at the [<a href="https://aisafety.stanford.edu/events/annual-meeting-2025.html">Stanford Center for AI Safety Annual Meeting</a>]</p><p class="tags">Stanford, CA &middot; September 2025</p></div></div>
@@ -203,6 +210,7 @@
 <div class="mi"><img src="assets/old/media_gadget.jpg" alt="" loading="lazy"><div><p class="mt">Creator of [<a href="https://www.facebook.com/gadgetroboticsCAT">Gadget Robotics Team</a>]</p><p>Team that competed in the Spanish National Robotics League</p><p class="tags">Lleida, Spain &middot; March 2017</p></div></div>
 <div class="mi"><img src="assets/old/media_upf.jpg" alt="" loading="lazy"><div><p class="mt">Featured in [<a href="https://www.upf.edu/es/web/innovacio/inici/-/asset_publisher/SUgEUS5XTYZ9/content/id/8143029/pop_up">UPF News</a>]</p><p>First place at the XI UPF Research and Engineering Awards</p><p class="tags">Lleida, Spain &middot; March 2017</p></div></div>
 <div class="mi"><img src="assets/old/media_exporecerca.jpg" alt="" loading="lazy"><div><p class="mt">Featured in [<a href="https://criatures.ara.cat/escola/gran-aparador-recerca-juvenil-exporecerca_1_1376473.html">Ara</a>] &amp; [<a href="https://elblocdelesvocacionscientifiques.wordpress.com/2017/04/27/fellows-de-la-fundacio-catalunya-la-pedrera-premiats-a-lexporecerca-jove-2017/guillem_stand/">laPedrera Foundation</a>]</p><p>First place at the Exporecerca Jove research fair</p><p class="tags">Lleida, Spain &middot; March 2017</p></div></div>
+</div>
 </section>
 
 <section id="more">
