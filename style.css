@@ -95,3 +95,12 @@ footer .links{margin:0 0 8px}
 @media (max-width:600px){.cards .card.span .gallery,#more .gallery{grid-template-columns:1fr}.grid2.media .mi.noimg{padding-left:0}}
 .card>figure:first-child{margin:0 0 12px}
 .grid2.media .mi.noimg{padding-left:0}
+/* grid tracks must be allowed to shrink below their content width */
+.cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.cards>*,.grid2>*,.grid3>*,.gallery>*,.card.side>*{min-width:0}
+.card.side{grid-template-columns:240px minmax(0,1fr)}
+.cards .card.side{grid-template-columns:minmax(0,1fr)}
+@media (max-width:900px){.cards,.grid2,.grid3{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:600px){.card.side,.cards .card.side{grid-template-columns:minmax(0,1fr)}}
