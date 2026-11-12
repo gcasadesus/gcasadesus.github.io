@@ -104,3 +104,9 @@ footer .links{margin:0 0 8px}
 .cards .card.side{grid-template-columns:minmax(0,1fr)}
 @media (max-width:900px){.cards,.grid2,.grid3{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:600px){.card.side,.cards .card.side{grid-template-columns:minmax(0,1fr)}}
+#about p,.hero .sub{max-width:none}
+#more .gallery{grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+#more .gallery img{aspect-ratio:1/1;object-fit:cover}
+#more figcaption{font-size:13px}
+@media (max-width:900px){#more .gallery{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:600px){#more .gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
